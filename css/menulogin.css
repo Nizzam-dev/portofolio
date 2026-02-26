@@ -1,0 +1,105 @@
+/*============= GOOGLE FONTS =============*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Unbounded:wght@200..900&display=swap');
+
+body{
+    background-image: url(bgkantin.png);
+    background-size: 100%;
+}
+.container1{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wadah1{
+    width: 450px;
+    min-height: 450px;
+    background:linear-gradient(to bottom right, #460e0a, #ff6044) ;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+    
+    }
+
+.judulmenu{
+    font-size: 30px;
+    text-align: center;
+}
+.penjual{
+    padding: 12px;
+    width: 170px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+}
+.wadahlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guru{
+    padding: 12px;
+    width: 170px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+}
+.inpemail{
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    align-items: center;
+    position: relative;
+}
+.logemail,
+.logpass{   
+    position: relative;
+    width: 200px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inpemail,
+.inppass{
+    width: 300px;
+    height: 50px;
+    padding: 10px 35px 10px 10px; /* ruang buat ikon kanan */
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+/* Ikon Email */
+.logemail i{
+    position: absolute;
+    left: 220px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Ikon Password */
+.logpass i{
+    position: absolute;
+    left: 220px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*Ikon Masuk*/
+.logpembeli{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(0, 183, 255);
+}
+.forgotpass{
+    margin-left: 200px;
+    margin-top: -15px;
+}
